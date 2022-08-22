@@ -1,0 +1,127 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+.section-space{
+    padding: 40px 0;
+}
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header a{
+    text-decoration: none;
+    font-size: larger;
+
+}
+.top-navbar-wraper .navtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-navbar-wraper .navbar-nav {
+    display: flex;
+    padding: 0;
+}
+.top-navbar-wraper .navbar-nav .nav-item {
+    list-style: none;
+    padding:0 12px;
+
+}
+.top-navbar-wraper .navbar-nav .nav-item .nav-link {
+    color:rgba(176,176,176,255);
+    font-size:large;
+    padding: 16px 4px;
+}
+.top-navbar-wraper .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(125,186,33,255);
+    color: #fff;
+    /* padding: 16px; */
+}
+
+.main-carosual-wraper {
+    position: relative;
+}
+/* .main-carosual-wraper .carobtn {
+    background-color:rgba(125,186,33,255);;
+} */
+.exploring-requisite-wraper {
+    position: absolute;
+    top:85%;
+    left: 120px;
+    font-size: xx-small;
+}
+.exploring-requisite-wraper .nav-link:hover {
+background-color: rgba(125,186,33,255);
+}
+.footer-wraper .row {
+    --bs-gutter-x: 0;
+}
+.product-card-wraper .card:hover {
+    background-color:  rgba(125,186,33,255);
+}
+.update-news-wraper .card:hover {
+    border-bottom:2px solid  rgba(125,186,33,255);
+}
+.company-intro-wraper img:hover {
+    background-color:  rgba(125,186,33,255);
+}
+
+
+.services-rendered-cards .card:hover {
+    border-bottom:2px solid   rgba(125,186,33,255); 
+}
+.additional-services-wraper .card-body:hover {
+    background-color:  rgba(125,186,33,255);
+}
+.consumer-service-wraper .card-body:hover {
+    background-color:  rgba(125,186,33,255);
+}
+.product-consumer-wraper .card-body:hover {
+    background-color:  rgba(125,186,33,255);
+}
+
+.location-product-wraper .card-body:hover {
+    border-bottom:2px solid   rgba(125,186,33,255); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p {
+    color: rgba(84,84,84,255);
+    font-size:small ;
+}
+
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom .nav-item {
+    list-style: none;
+}
+.footer-bottom .nav-item .nav-link{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
